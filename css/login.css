@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 4em; /* Adjusted margin for better positioning */
+}
+
+.form {
+    background-color: maroon;
+    padding: 2em; /* Increased padding for better aesthetics */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Centering content vertically */
+    align-items: center;
+}
+
+.form h1 {
+    /* Removed align-items and justify-content, as they are not applicable here */
+}
+
+#notification {
+    color: green; /* Changed color to crimson for better visibility */
+}
